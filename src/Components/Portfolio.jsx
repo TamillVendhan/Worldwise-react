@@ -132,7 +132,7 @@ const Portfolio = () => {
               <p className="text-center mt-2 text-sm">
                 {technologies.join(", ")}
               </p>
-              <div className="flex flex-row items-center justify-center ">
+              <div className="flex flex-row items-center justify-center mt-2 gap-2">
                 <a
                   href={demo}
                   target="_blank"

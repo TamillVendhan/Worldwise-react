@@ -34,9 +34,10 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black">
       <div>
-        <h1 className="sm:text-5xl ml-2 font-signature text-2xl cursor-pointer">
+        <h1 className="sm:text-4xl ml-2 font-signature text-2xl cursor-pointer">
           Tamil Vendhan
         </h1>
+        {/* <img className="cursor-pointer mx-auto sm:w-10 md:w-12 lg:w-14 w-10" src="src/assets/assets/logo.png" alt="" /> */}
       </div>
 
       <ul className="hidden md:flex">
@@ -49,10 +50,10 @@ const NavBar = () => {
               to={link}
               smooth
               duration={500}
-              className="inline-block relative"
+              className="inline-block"
             >
               {link}
-              <span className="absolute bottom-0 left-0 h-0.5 bg-gray-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100 w-full"></span>
+              <span className="bottom-0 left-0 h-0.5 bg-gray-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100 w-full"></span>
             </Link>
           </li>
         ))}
